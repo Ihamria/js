@@ -1,0 +1,32 @@
+body{
+    background: blanchedalmond;
+}
+h1{ 
+    color: rgb(145, 53, 0);
+    text-shadow: 2px 2px rgb(214, 132, 37) ;
+    text-align: center;
+   
+}
+
+input{
+    width: 20% ;
+    height: 80%;
+    margin-top:10% ;
+    margin-left: 40%;
+    
+}
+.bt{ 
+    width: 20% ;
+    height: 80%;
+    margin-top:0% ;
+    margin-left: 40%;
+
+}
+label{ 
+    width: 20% ;
+    height: 80%;
+    margin-top:0% ;
+    margin-left: 49%;
+
+
+}
