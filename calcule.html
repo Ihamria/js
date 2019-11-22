@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calcul</title>
+        <meta charset="utf-8">
+        <style>
+          body {
+           
+            margin-top: 20%;
+           margin-left: 40%;
+              
+             
+          }
+          #somme{
+              margin-left: 15%;
+          
+            
+          }
+          
+              
+          }
+        </style>
+    </head>
+    <body>
+            <input type="text" id="premier nombre">
+            <input type="text"  id="deuxieme nombre"><br><br>
+            <input type="button" onclick="somme()"  id="somme" value="calcul">
+            <script>
+            function somme() { 
+                var x,y,z;
+                x=parseInt(document.getElementById('premier nombre').value);
+                y=parseInt(document.getElementById('deuxieme nombre').value);
+                z=x+y;
+                window.alert ("la somme de " + x + "et" + y + " est :" + z)
+            }
+            </script>
+        
+
+
+
+    </body>
+</html>
